@@ -9,6 +9,7 @@ Copy `config/pdfcrowd.php` into your `app/config/` directory and set your userna
 You can now user any of the [API methods](https://pdfcrowd.com/web-html-to-pdf-php/) with the `PDFCrowd` object. For example:
 
 ```php
+<?php
 $pdfcrowd = new PDFCrowd();
 echo $pdfcrowd::convertHtml('Hello <strong>World!</strong> :)');
 ```
